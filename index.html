@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = en>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A short quiz for The Legend of Zelda: Ocarina of Time.">
+    <meta name="author" content="Jonathan Vega">
+    <meta name="keywords" content="HTML, CSS, JQuery, JavaScript ">
+    <title>Legend of Zelda: Ocarina of Time Trivia Challenge</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="float-grid.css"/>
+  </head>
+  <body>
+    
+    <nav class = "col-1" role = "navigation">
+      <header role = "banner" class = "gameTitle"><h1>The Legend of Zelda: Ocarina of Time</h1><h2>Trivia Challenge</h2></header>
+    </nav>
+    
+    <main role = "main">
+      <form class = "question-form">
+        <section role = "region" id = "intro">
+          <h2>
+            <p class = "question">Are you a fan of The Legend of Zelda: Ocarina of Time?<br><br>Test your knowledge and find out!
+            </p>
+          </h2>
+        </section>  
+        
+        <section role = "region" id = "parentQuestion">
+          <article class = 'answer'>
+          </article>
+        </section> 
+        
+        <div class = "submitBlock" >
+         <button id = "startButton">Begin!
+         </button>
+        </div>
+      </form>
+    </main>
+  
+  <footer></footer>
+  
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="DATABASE.js"></script>
+  <script src="index.js"></script>
+  
+  </body>
+</html>
+
